@@ -40,7 +40,7 @@ if ($result->num_rows > 0) {
               </tr>";                
     }
 } else {
-    echo "<tr><td colspan='2'>Nenhum funcionário encontrado na tabela do mês anterior que não esteja na tabela do mês atual.</td></tr>";
+    echo "<tr><td colspan='2'>Não houve exonerações esse mês</td></tr>";
 }
 
 echo "</tbody>
