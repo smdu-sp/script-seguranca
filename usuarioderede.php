@@ -106,5 +106,5 @@ if ($db_connection->query($sql) === TRUE) {
     echo "Erro ao executar a atualização: " . $db_connection->error;
 }
 
-header('Location: index.html');
+header('Location: index.php');
 ?>
